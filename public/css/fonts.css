@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "Caveat";
+	src: url("../fonts/Caveat-VariableFont_wght.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Poiret";
+	src: url("../fonts/PoiretOne-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
