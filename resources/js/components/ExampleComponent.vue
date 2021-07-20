@@ -31,17 +31,17 @@
       <!--<div class="nav_drawer__label"> Список тегов </div>-->
 
       <div class="navigation-list-system">
-          <v-btn href="/index.php" class="nav_list_sys__button" color="secondary"> Все </v-btn>
-          <v-btn href="/?tags=пацаны" class="nav_list_sys__button" color="primary"> #Пацаны </v-btn>
-          <v-btn href="/?tags=леди" class="nav_list_sys__button" color="primary"> #Леди </v-btn>
-          <v-btn href="/?tags=грустные" class="nav_list_sys__button" color="primary"> #Грустные </v-btn>
-          <v-btn href="/?tags=хайповые" class="nav_list_sys__button" color="primary"> #Хайповые </v-btn>
-          <v-btn href="/?tags=панки" class="nav_list_sys__button" color="primary"> #Панки </v-btn>
-          <v-btn href="/?tags=семья" class="nav_list_sys__button" color="primary"> #Семья </v-btn>
-          <v-btn href="/?tags=питерские" class="nav_list_sys__button" color="primary"> #Питерские </v-btn>
-          <v-btn href="/?tags=реперские" class="nav_list_sys__button" color="primary"> #Реперские </v-btn>
-          <v-btn href="/?tags=жизненные" class="nav_list_sys__button" color="primary"> #Жизненные </v-btn>
-          <v-btn href="/?tags=лысые" class="nav_list_sys__button" color="primary"> #Лысые </v-btn>
+          <v-btn href="./index.php" class="nav_list_sys__button" color="secondary"> Все </v-btn>
+          <v-btn href="./index.php?tags=пацаны" class="nav_list_sys__button" color="primary"> #Пацаны </v-btn>
+          <v-btn href="./index.php?tags=леди" class="nav_list_sys__button" color="primary"> #Леди </v-btn>
+          <v-btn href="./index.php?tags=грустные" class="nav_list_sys__button" color="primary"> #Грустные </v-btn>
+          <v-btn href="./index.php?tags=хайповые" class="nav_list_sys__button" color="primary"> #Хайповые </v-btn>
+          <v-btn href="./index.php?tags=панки" class="nav_list_sys__button" color="primary"> #Панки </v-btn>
+          <v-btn href="./index.php?tags=семья" class="nav_list_sys__button" color="primary"> #Семья </v-btn>
+          <v-btn href="./index.php?tags=питерские" class="nav_list_sys__button" color="primary"> #Питерские </v-btn>
+          <v-btn href="./index.php?tags=реперские" class="nav_list_sys__button" color="primary"> #Реперские </v-btn>
+          <v-btn href="./index.php?tags=жизненные" class="nav_list_sys__button" color="primary"> #Жизненные </v-btn>
+          <v-btn href="./index.php?tags=лысые" class="nav_list_sys__button" color="primary"> #Лысые </v-btn>
           <div class="nav_drawer__label_small">VladOS Pictures</div>
       </div>
     </v-navigation-drawer>

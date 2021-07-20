@@ -8,7 +8,7 @@
                 <form action="./scripts/publish.php" onsubmit="tag_collector();" method="post">
                     <br />
                     <div class="pc_row">
-                        <label class="shoutbox-label" for="shoutbox-name">Ваше имя: </label> <input type="text" required id="shoutbox-name" name="name"/>
+                        <label class="shoutbox-label" for="shoutbox-name">Ваше имя: </label> <input type="text" required id="shoutbox-name" maxlength='240' name="name"/>
                     </div>
                     <br />
                     <div class="pc_row">

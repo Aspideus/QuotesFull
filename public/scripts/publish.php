@@ -18,7 +18,7 @@ if(isset($_POST["tags"])){
     //echo 'before array count values';
     $check_for_cheat_tags = substr_count($posted_tags, ';');
     //echo 'after it';
-    if(($check_for_cheat_tags > 3) || ($check_for_cheat_tags = 0))
+    if(($check_for_cheat_tags > 3) || ($check_for_cheat_tags < 1))
         $nocheats = false;
     
 }
@@ -38,8 +38,14 @@ if(isset($posted_name) && isset($posted_comment) && $nocheats) {
     $comment = htmlspecialchars($_POST["comment"]);
     $comment = str_replace(array("\n", "\r"), '', $comment);
 	
-
-    echo "comment set";
+    if(strlen($comment) > 240) {
+        $comment = mb_strimwidth($comment, 0, 240, '');
+        //echo "; ".$comment." comment > 240 ";
+    }
+    if(strlen($name) > 240) {
+        $name = mb_strimwidth($name, 0, 240, '');
+        //echo "; ".$name." name > 240 ";
+    }
 
 
 
@@ -98,5 +104,6 @@ if(isset($posted_name) && isset($posted_comment) && $nocheats) {
 echo "done";
 
 
-header( 'Location: /');
+header( 'Location: ../index.php');
+die();
 ?>

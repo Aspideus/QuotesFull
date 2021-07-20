@@ -38956,7 +38956,7 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/index.php", color: "secondary" }
+                  attrs: { href: "./index.php", color: "secondary" }
                 },
                 [_vm._v(" Все ")]
               ),
@@ -38965,7 +38965,7 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=пацаны", color: "primary" }
+                  attrs: { href: "./index.php?tags=пацаны", color: "primary" }
                 },
                 [_vm._v(" #Пацаны ")]
               ),
@@ -38974,7 +38974,7 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=леди", color: "primary" }
+                  attrs: { href: "./index.php?tags=леди", color: "primary" }
                 },
                 [_vm._v(" #Леди ")]
               ),
@@ -38983,7 +38983,7 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=грустные", color: "primary" }
+                  attrs: { href: "./index.php?tags=грустные", color: "primary" }
                 },
                 [_vm._v(" #Грустные ")]
               ),
@@ -38992,7 +38992,7 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=хайповые", color: "primary" }
+                  attrs: { href: "./index.php?tags=хайповые", color: "primary" }
                 },
                 [_vm._v(" #Хайповые ")]
               ),
@@ -39001,7 +39001,7 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=панки", color: "primary" }
+                  attrs: { href: "./index.php?tags=панки", color: "primary" }
                 },
                 [_vm._v(" #Панки ")]
               ),
@@ -39010,7 +39010,7 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=семья", color: "primary" }
+                  attrs: { href: "./index.php?tags=семья", color: "primary" }
                 },
                 [_vm._v(" #Семья ")]
               ),
@@ -39019,7 +39019,10 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=питерские", color: "primary" }
+                  attrs: {
+                    href: "./index.php?tags=питерские",
+                    color: "primary"
+                  }
                 },
                 [_vm._v(" #Питерские ")]
               ),
@@ -39028,7 +39031,10 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=реперские", color: "primary" }
+                  attrs: {
+                    href: "./index.php?tags=реперские",
+                    color: "primary"
+                  }
                 },
                 [_vm._v(" #Реперские ")]
               ),
@@ -39037,7 +39043,10 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=жизненные", color: "primary" }
+                  attrs: {
+                    href: "./index.php?tags=жизненные",
+                    color: "primary"
+                  }
                 },
                 [_vm._v(" #Жизненные ")]
               ),
@@ -39046,7 +39055,7 @@ var render = function() {
                 "v-btn",
                 {
                   staticClass: "nav_list_sys__button",
-                  attrs: { href: "/?tags=лысые", color: "primary" }
+                  attrs: { href: "./index.php?tags=лысые", color: "primary" }
                 },
                 [_vm._v(" #Лысые ")]
               ),
@@ -39154,7 +39163,13 @@ var staticRenderFns = [
       ),
       _vm._v(" "),
       _c("input", {
-        attrs: { type: "text", required: "", id: "shoutbox-name", name: "name" }
+        attrs: {
+          type: "text",
+          required: "",
+          id: "shoutbox-name",
+          maxlength: "240",
+          name: "name"
+        }
       })
     ])
   },

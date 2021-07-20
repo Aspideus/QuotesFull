@@ -48,3 +48,7 @@ function tag_collector() {
 function burger_shows_menu(){
   document.querySelector('.v-navigation-drawer').classList.toggle('burger_shows_menu');
 };
+
+if (document.querySelector('.message_card') == null) {
+  document.querySelector('.messages_window').innerHTML = '<div style="margin: 20px 0px 15px 15px;">Кажется, волк здесь ещё не проходил...</div>'
+}
